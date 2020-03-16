@@ -3,17 +3,19 @@
     padding: 0;
 }
 body{
-    background-color: white;
+    background-color: #D4B0E4;
 }
 .container{
     color: black;
-    height: 50%;
     width: 100%;
 }
 .fas{
     background-color: #474747;
     color: purple;
-    margin: 25px 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
 }
 .white{
     background-color: #474747;
@@ -21,4 +23,73 @@ body{
 }
 .white .fa-search{
     justify-content: end;
+}
+section{
+    background-color: whitesmoke;
+}
+.radius{
+    color:white;
+    background-color: #9D589F;
+    max-width: 80%;
+    margin-left: 30px;
+    border-radius: 40px ;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    height: 15%;
+}
+.fundo{
+    background-color: white;
+    height: 300px;
+    margin-top: 20px;
+    min-width: 30px;
+}
+.card{
+    background-color: #824C9A;
+    height: 90%;
+    max-width: 80%;
+    margin-left: 55px;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+}
+.card1{
+    background-color: #387878;
+    height: 90%;
+    max-width: 80%;
+    margin-left: 55px;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+}
+.radius1{
+    color:white;
+    background-color:#50A9AF;
+    max-width: 80%;
+    margin-left: 30px;
+    border-radius: 40px ;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    height: 15%;
+}
+.radius2{
+    color:white;
+    background-color:#9E4444;
+    max-width: 80%;
+    margin-left: 30px;
+    border-radius: 40px ;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    height: 15%;
+}
+.card2{
+    background-color: #5B2828;
+    height: 90%;
+    max-width: 80%;
+    margin-left: 55px;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
 }

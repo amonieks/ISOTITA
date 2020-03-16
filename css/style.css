@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    color: black;
+    height: 50%;
+    width: 100%;
+}
+.fas{
+    background-color: #474747;
+    color: purple;
+    margin: 25px 90px;
+}
+.white{
+    background-color: #474747;
+    display: flex;
+}
+.white .fa-search{
+    justify-content: end;
+}

@@ -1,17 +1,23 @@
 :root{
     --primaria:#A963C9;
     --secundaria:#363636;
+    --fundoh2:#9D589F;
+    --fundocard:#B871B1;
+    --linecolor:#DEDEDE;    
 }
 *{
     margin: 0;
     padding: 0;
 }
+                    /* header */
+
 
 img{
     width: 100%;
 }
 body{
     background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .container{
@@ -42,6 +48,11 @@ body{
     opacity: 50%;
     
 }
+
+
+                /* main */
+
+
 .center{
     width: 100%;
     margin: 0 auto;
@@ -56,7 +67,84 @@ aside{
     margin-left:1em;
 }
 .movimentos{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
-    background-color: aqua;
+    background-color:white;
+    margin-right: 2em;
+    box-shadow: 0 10px 10px;
+    border-radius: 19px;
+}
+.card{
+    width: 340px;
+    margin: 0 auto;
+    background-color:var(--fundocard);
+    border: solid 1px;
+    border-radius: 10px;
+}
+.card img{
+    height: 125px;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 0.5em;
+    background-color: var(--fundoh2);
+    width: 40%;    
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #707070;     
+}
+.card h3{  
+    margin: 0.5em;  
+    text-align: end;
+    background-color: var(--fundoh2);    
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #707070;
+}
+
+.line{
+    width: 80%;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-color: var(--linecolor);
+    border-bottom: 1px inset; 
+}
+
+
+
+                /* footer */
+
+footer{
+    
+    box-shadow: 0px 0px 10px black;
+    color: #707070;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+ .sociais{
+    display: flex;
+    justify-content: space-evenly;
+    color:  purple;
+    padding: 1.2em 0px;
+}
+footer .footer{
+    width: 100%;
+    height: 107px;
+    background-color: #474747;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+footer h3{
+    text-align: end;
+    font-size: medium;
+    margin-left: 10px;
+}
+footer p{
+    border: black;
+    text-align: center;
+    background-color: #474747;
 }

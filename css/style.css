@@ -102,6 +102,9 @@ aside{
     border-radius: 10px;
     border: 1px solid #707070;
 }
+.card h4{
+    margin: 0.5em;
+}
 
 .line{
     width: 80%;

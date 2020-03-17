@@ -1,95 +1,232 @@
+:root{
+    --fundo1:#824C9A;
+    --fundo2:#9D589F;
+    --fundo3:#387878;
+    --fundo4:#50A9AF;
+    --fundo5:#5B2828;
+    --fundo6:#9E4444;
+    --purple: 
+}
 *{
-    margin: 0;
+    margin:0 auto ;
     padding: 0;
 }
 body{
     background-color: #D4B0E4;
 }
 .container{
-    color: black;
-    width: 100%;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
 }
-.fas{
-    background-color: #474747;
-    color: purple;
-    height: 40px;
+header img{
+    width: 120px;
+}
+.filepa1{
+    height: 600px;
+    width: 2%;
+    background-color: #D4B0E4;
+    position: absolute;
+    left: 8px;
+}
+.card h1{
+    color: white;
     margin-top: 20px;
-    margin-left: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.h1{
+    margin-top: 40px;
+}
+.card{
+    background-color: var(--fundo1) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 350px;
+}
+.fundo1{
+    background-color: var(--fundo2);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+
+.centro{
+    background-color: white;
     display: flex;
+    justify-content: space-between;
+    height: 1250px;
+    max-width: 100%;
+    margin-top: 10px;
 }
-.white{
-    background-color: #474747;
-    display: flex;
-}
-.white .fa-search{
-    justify-content: end;
-}
-section{
-    background-color: whitesmoke;
-}
-.radius{
-    color:white;
+button{
     background-color: #9D589F;
-    max-width: 80%;
-    margin-left: 30px;
-    border-radius: 40px ;
-    text-align: center;
-    position: relative;
-    top: 15px;
-    height: 15%;
+    box-shadow: 5px 5px 5px black;
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    justify-content: space-between;
 }
 .fundo{
     background-color: white;
-    height: 300px;
+    box-shadow: 0px 10px 10px;
+    height: 1150px;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.assunto{
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 92%;
+}
+textarea{
+    margin-left: 10px ;
+    margin-top: 10px;
+    width: 92%;
+
+}
+footer{
+    box-shadow: 0px 0px 10px black;
+    color: #707070;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+ .sociais{
+    display: flex;
+    justify-content: space-evenly;
+    color:  purple;
+    padding: 1.2em 0px;
+}
+footer .container{
+    background-color: #474747;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+footer h3{
+    text-align: end;
+    font-size: medium;
+    margin-left: 10px;
+}
+footer p{
+    border: black;
+    text-align: center;
+    background-color: #474747;
+}
+
+
+/* PAGINA DE CADASTRO */
+
+.container{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.fas{
+  color: #800080;
+}
+main{
+    background-color: white;
+    background-repeat: repeat;
+    max-width: 100%;
     margin-top: 20px;
-    min-width: 30px;
+    height: 800px;
 }
-.card{
-    background-color: #824C9A;
-    height: 90%;
-    max-width: 80%;
-    margin-left: 55px;
+main img{
+    width: 130%;
+    height: 94%;
     position: relative;
-    top: 10px;
-    border-radius: 30px;
+    top: 400px;
+    margin: 20px 20px;
 }
-.card1{
-    background-color: #387878;
-    height: 90%;
-    max-width: 80%;
-    margin-left: 55px;
-    position: relative;
-    top: 10px;
-    border-radius: 30px;
+.filepa{
+    height: 800px;
+    width: 2%;
+    background-color: #D4B0E4;
+    position: absolute;
+    left: 40px;
 }
-.radius1{
-    color:white;
-    background-color:#50A9AF;
-    max-width: 80%;
-    margin-left: 30px;
-    border-radius: 40px ;
+.evento{
+    background-color: #AE6BE8;
     text-align: center;
-    position: relative;
-    top: 15px;
-    height: 15%;
+    max-width: 40%;
+    border-radius: 15px;
+    color: white;
+    height: 60px;
 }
-.radius2{
-    color:white;
-    background-color:#9E4444;
-    max-width: 80%;
-    margin-left: 30px;
-    border-radius: 40px ;
-    text-align: center;
-    position: relative;
-    top: 15px;
-    height: 15%;
+.form{
+    box-shadow: 0px 10px 10px;
+    max-width: 50%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
-.card2{
-    background-color: #5B2828;
-    height: 90%;
-    max-width: 80%;
-    margin-left: 55px;
+.campo{
+    align-items: flex-start;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    color: black;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin: 0px 20px;
+ }
+ .campo label{
+     text-transform: uppercase;
+     padding: 30px;
+ }
+ input[type="text"],
+input[type="date"],
+select{
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #474747;
+    width: 60%;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    border-bottom: 1px solid var(--fundo4);
+}
+.ilustração{
+    width: 200%;
+    height: 103%;
+    align-items: flex-start;
+    justify-content: start;
+}
+ .img{
+    width: 100%;
+    height: 600px;
+}
+.sociais{
+    justify-content: start;
+}
+.botaocadastro{
+    background-color: var(--fundo2);
+    color: white;
     position: relative;
-    top: 10px;
-    border-radius: 30px;
+    top: 300px;
+    width: 30%;
 }

@@ -11,6 +11,8 @@
     margin:0 auto ;
     padding: 0;
 }
+
+
 body{
     background-color: #D4B0E4;
 }
@@ -234,7 +236,7 @@ footer{
 .sociais{
     display: flex;
     justify-content: start;
-    color:  purple;
+    color:  #a963c9;
     padding: 1.2em 0px;
 
 }
@@ -449,7 +451,7 @@ select{
     }
     .botao2{
         position: absolute;
-        left: 180px;
+        left: 130px;
         width: 70px;
     }
     .botao4{
@@ -459,7 +461,7 @@ select{
     }
     .botao3{
         position: absolute;
-        left: 180px;
+        left: 130px;
         width: 70px;
     }
     .botao6{
@@ -469,12 +471,12 @@ select{
     }
     .botao5{
         position: absolute;
-        left: 180px;
+        left: 130px;
         width: 70px;
     }
     .fundo{
         width: 95%;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .fundo2{
         background-color: var(--fundo4);
@@ -504,9 +506,11 @@ select{
     }
     footer img{
         width: 90px;
+        margin-top: 5px;
     }
-    footer h3{
-        margin-left: 300px;
+    .suporte{
+        margin-left: 210px;
+        margin-top: -20px;
     }
 }
 /* fim media feed 425px */
@@ -573,9 +577,7 @@ select{
     footer img{
         width: 130px;
     }
-    footer h3{
-        margin-right: 10px;
-    }
+  
 }
 /* fim media feed 1366px */
 
@@ -584,6 +586,30 @@ select{
     .motivos{
         height: 200px;
         margin-left: 20px;
+    }
+    .botao{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao2{
+        margin-left: -60px;
+        width: 100px;
+    }
+    .botao4{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao3{
+        margin-left: -60px;
+        width: 100px;
+    }
+    .botao6{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao5{
+        margin-left: -60px;
+        width: 100px;
     }
     .botaocadastro{
         background-color: #B171E9;
@@ -594,6 +620,10 @@ select{
         align-items: center;
         height: 30px;
         width: 15%;
+    }
+    .fundo{
+        width: 90%;
+        margin-left: 40px;
     }
     .form{
         height: 550px;
@@ -611,6 +641,12 @@ select{
     .img{
         height: 300px;
     }
+    footer img{
+        width: 100px;
+    }
+    .suporte{
+        margin-right: -20px;
+    }
     .evento{
         margin-left: 40%;
     }
@@ -625,6 +661,7 @@ select{
 
 /* fim media cadastro 768px */
 
+/* inicio media de cadastro 425px */
 @media screen and (max-width: 425px){
      .background{
          width: 100%;
@@ -649,6 +686,9 @@ select{
      }
      .seletivo{
          margin-left: 14px;
+     }
+     .suporte{
+         margin-left: -210px;
      }
      body{
          height: 750px;

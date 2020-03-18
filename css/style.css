@@ -59,9 +59,9 @@ body{
 }
 
 
-                /* main */
+     /* main */
 
-
+            /* Home */
 .center{
     width: 100%;
     margin: 0 auto;
@@ -126,6 +126,39 @@ aside{
     border-color: var(--linecolor);
     border-bottom: 1px inset; 
 }
+        /* fim da home */
+    
+    /* Cadastro */
+
+h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    margin: 1em;
+    
+}
+.banner_cadastro{
+    width: 262px;
+    height: 125px;
+    margin: 0 auto;
+    margin-bottom: 1em; 
+}
+.dados{
+    padding: 1em;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    box-shadow: 0 10px 10px;
+    border-radius: 30px;
+    background-color: red;
+}
+.campo{
+    width: 80%;
+}
+
+
+
+    /* Fim do Cadastro */
 
 
 

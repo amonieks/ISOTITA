@@ -8,18 +8,106 @@
     <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container">
-        <a href="#">
-            <i class="fas fa-bars"></i>
-        </a>
 
-        <a href="index.html">
-            <img src="img/Logo.png" alt="Logo do site">
-        </a>
+                <!-- CABEÇALHO -->
 
-        <a href="#">
-            <i class="fas fa-search"></i>
-        </a>
+
+    <header>
+        <div  class="container">
+
+            
+            <div class="icons">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <div class="logo">
+                <img src="imagens/Logo.png" alt="Logomarca">
+            </div>
+            
+            
+            <div class="icons">
+                <i class="fas fa-search"></i>
+            </div>            
+            
+        </div>
+
+        <div class="bar"></div>
+    </header>
+                <!-- FIM CABEÇALHO -->
+
+                <!-- MEIO DA PAGINA -->
+    <main>
+
+
+
+        <h1>cadastro</h1>
+
+        <aside></aside>
+
+       <div class="banner_cadastro">
+           <img src="Imagens/Imagem 2.png" alt="">
+       </div>
+       <form class="dados" action="" method="POST">
+
+           <div class="campo">
+               <label for="nome">nome completo:</label>
+               <input type="text" name="nome completo" id="nome">
+           </div>
+           <div class="campo">
+               <label for="data_de_nascimento">data de nascimento:</label>
+               <input type="date" name="data de nascimento" id="nascimento">
+           </div>
+           <div class="campo">
+               <label for="email">e-mail</label>
+               <input type="email" name="email" id="email">
+           </div>
+           <div class="campo">
+               <label for="senha">senha</label>
+               <input type="password" name="senha" id="email">
+           </div>
+           <div class="campo">
+               <label for="confirma_senha">confirma senha</label>
+               <input type="password" name="confirma_senha" id="confirma_senha">
+           </div>
+
+           <fieldset>
+            <legend>genero</legend>
+
+
+                    <input type="radio" name="sexo" value="M" id="masculino">
+                    <label for="Masculino">Masculino</label>
+
+                    <input type="radio" name="sexo" value="F" id="masculino">
+                    <label for="Feminino">Feminino</label>
+
+                    <input type="radio" name="sexo" value="O" id="masculino">
+                    <label for="Outros">Outro</label>
+
+                    <input type="radio" name="sexo" value="N" id="masculino">
+                    <label for="NA">Masculino</label>
+           </fieldset>
+
+                    <div class="campo termos">
+
+                        <input type="checkbox" Name="check" id="check">
+                        <label for="check">
+                            Declaro que li e aceito os termos de uso deste site.</label>
+                    </div>
+                        <button type="submit" class="btn gradient">criar</button>
+    </form>
+
+
+
+    </main>
+
+
+                <!-- FIM MEIO DA PAGINA -->
+
+
+                    <!-- footer -->
+
+    <footer>
+        <div class="footer">
         
 </header>
 <main class="background">

@@ -451,7 +451,7 @@ select{
     }
     .botao2{
         position: absolute;
-        left: 100px;
+        left: 130px;
         width: 70px;
     }
     .botao4{
@@ -461,7 +461,7 @@ select{
     }
     .botao3{
         position: absolute;
-        left: 100px;
+        left: 130px;
         width: 70px;
     }
     .botao6{
@@ -471,12 +471,12 @@ select{
     }
     .botao5{
         position: absolute;
-        left: 100px;
+        left: 130px;
         width: 70px;
     }
     .fundo{
-        width: 95%;
-        margin-left: 30px;
+        width: 100%;
+        margin-left: 20px;
     }
     .fundo2{
         background-color: var(--fundo4);

@@ -1,0 +1,697 @@
+:root{
+    --fundo1:#824C9A;
+    --fundo2:#9D589F;
+    --fundo3:#387878;
+    --fundo4:#50A9AF;
+    --fundo5:#5B2828;
+    --fundo6:#9E4444;
+    --purple: 
+}
+*{
+    margin:0 auto ;
+    padding: 0;
+}
+
+
+body{
+    background-color: #D4B0E4;
+}
+.container{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+header img{
+    width: 120px;
+}
+.filepa1{
+    height: 1450px;
+    width: 2%;
+    background-color: #D4B0E4;
+    position: absolute;
+    left: 8px;
+}
+.card h1{
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.card2 h1{
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.card2 .fundo2 h1{
+    position: relative;
+    top: 15px;
+}
+.card2 .fundo2{
+    position: relative;
+    top:15px;
+    justify-content: start;
+}
+.card3 h1{
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.card3 .fundo3 h1{
+    position: relative;
+    top: 15px;
+}
+.card3 .fundo3{
+    position: relative;
+    top:15px;
+    justify-content: start;
+}
+.card .fundo1 h1{
+    position: relative;
+    top: 17px;
+}
+.card .fundo1{
+    position: relative;
+    top:15px;
+    justify-content: start;
+}
+.card{
+    background-color: var(--fundo1) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 420px;
+}
+.card2{
+    background-color: var(--fundo3) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 420px;
+}
+.card3{
+    background-color: var(--fundo5) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 420px;
+}
+
+
+.fundo1{
+    background-color: var(--fundo2);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+.fundo2{
+    background-color: var(--fundo4);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+.fundo3{
+    background-color: var(--fundo6);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.centro{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 1450px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+button{
+    background-color: #9D589F;
+    box-shadow: 5px 5px 5px black;
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    justify-content: space-between;
+}
+.botao{
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao2{
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.botao4{
+    background-color: var(--fundo4);
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao3{
+    background-color: var(--fundo4);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.botao6{
+    background-color:var(--fundo6);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 15%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao5{
+    background-color:var(--fundo6);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.seletivo{
+    margin-left: 87px;
+}
+.fundo{
+    background-color: white;
+    box-shadow: 0px 10px 10px;
+    height: 1390px;
+    width: 90%;
+    margin-left: 65px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.assunto{
+    margin-left: 44px;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 86%;
+}
+.sobre{
+    margin-left: 40px;
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 91%;
+}
+textarea{
+    margin-left: 20px ;
+    margin-top: 10px;
+    width: 92%;
+
+}
+footer{
+    box-shadow: 0px 0px 10px black;
+    color: #707070;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.sociais{
+    display: flex;
+    justify-content: start;
+    color:  #a963c9;
+    padding: 1.2em 0px;
+
+}
+footer .container{
+    background-color: #474747;
+    display: flex;
+    justify-content: start;
+    padding: 2em;
+}
+
+footer h3{
+    text-align: center;
+    font-size: small;
+    width: 200px;
+    padding: 1px;
+    margin: 0px 30px;
+    margin-left:-100px ;
+}
+footer p{
+    border: black;
+    text-align: center;
+    background-color: #474747;
+}
+
+
+/* PAGINA DE CADASTRO */
+
+.container{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.fas{
+  color: #a963c9;
+}
+main{
+    background-color: white;
+    background-repeat: repeat;
+    max-width: 100%;
+    margin-top: 20px;
+    height: 950px;
+}
+main .evento{
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    height: 30px;
+    width: 30%;
+}
+main img{
+    width: 130%;
+    height: 94%;
+    position: relative;
+    top: 400px;
+    margin: 20px 20px;
+}
+.filepa{
+    height: 950px;
+    width: 2%;
+    background-color: #D4B0E4;
+    position: absolute;
+    left: 40px;
+}
+.evento{
+    background-color: #AE6BE8;
+    text-align: center;
+    max-width: 40%;
+    border-radius: 15px;
+    color: white;
+    height: 90px;
+}
+.ilustração{
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: start;
+}
+ .img{
+    width: 100%;
+    height: 500px;
+}
+.sociais{
+    justify-content: start;
+}
+.motivos{
+    height: 300px;
+    margin-left: 20px;
+}
+.botaocadastro{
+    background-color: #B171E9;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 40px;
+    align-items: center;
+    height: 30px;
+    width: 15%;
+}
+footer img{
+    width: 120px;
+}
+
+textarea{
+    margin-left: 60px;
+    height: 20%;
+    width: 90%;
+}
+
+.form{
+    max-width: 60%;
+    box-shadow: 0px 10px 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 3em;
+    height: 650px;
+    margin-bottom: 3em;
+    border-radius: 15px;
+}
+.campo{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   color: black;
+   padding: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: 3px;
+}
+
+.campo label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.seletivo{
+    margin-top: 5px;
+    margin-right: 45px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 60%;
+}
+input[type="date"]{
+    text-align: center;
+    font-size: 1.3em;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #474747;
+    border-bottom: 1px solid var(--purple);
+}
+.form button{
+    border: none;
+    margin-top: 2em;
+    width: 15%;
+    cursor: pointer;
+}
+select{
+    margin: 30px 30px;
+}
+
+
+/* começo media feed 768px */
+@media screen and (max-width: 768px){
+    .botao{
+        margin-right: 100px;
+    }
+    .botao2{
+        margin-left: 20px;
+    }
+
+    .fundo{
+        width: 87%;
+    }
+
+    .sobre{
+        margin-left: 27px;
+    }
+    .assunto{
+        width: 88%;
+        margin-left: 30px;
+    }
+    footer img{
+        width: 90px;
+    }
+    footer h3{
+        margin-left: 300px;
+    }
+
+}
+
+/* fim media 768px */
+
+/* inico media feed 425px */
+@media screen and (max-width: 425px){
+    .botao{
+        position: absolute;
+        right: 120px;
+        width: 60px;
+    }
+    .botao2{
+        position: absolute;
+        left: 130px;
+        width: 70px;
+    }
+    .botao4{
+        position: absolute;
+        right: 120px;
+        width: 60px;
+    }
+    .botao3{
+        position: absolute;
+        left: 130px;
+        width: 70px;
+    }
+    .botao6{
+        position: absolute;
+        right: 120px;
+        width: 60px;
+    }
+    .botao5{
+        position: absolute;
+        left: 130px;
+        width: 70px;
+    }
+    .fundo{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .fundo2{
+        background-color: var(--fundo4);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo3{
+        background-color: var(--fundo6);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo1{
+        background-color: var(--fundo2);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .sobre{
+        margin-left: 17px;
+        height: 180px;
+    }
+    .assunto{
+        width: 88%;
+        margin-left: 17px;
+    }
+    footer img{
+        width: 90px;
+        margin-top: 5px;
+    }
+    .suporte{
+        margin-left: 210px;
+        margin-top: -20px;
+    }
+}
+/* fim media feed 425px */
+
+/* inico media feed 1366px */
+@media screen and (max-width: 1366px){
+    .botao{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao2{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .botao4{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao3{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .botao6{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao5{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .fundo{
+        width: 90%;
+        margin-left: 90px;
+    }
+    .fundo2{
+        background-color: var(--fundo4);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo3{
+        background-color: var(--fundo6);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo1{
+        background-color: var(--fundo2);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .sobre{
+        margin-left: 17px;
+        height: 180px;
+    }
+    .assunto{
+        width: 88%;
+        margin-left: 17px;
+    }
+    .seletivo{
+        margin-left: 55px;
+    }
+    footer img{
+        width: 130px;
+    }
+  
+}
+/* fim media feed 1366px */
+
+/* inicio media cadastro 768px */
+@media screen and (max-width: 768px){
+    .motivos{
+        height: 200px;
+        margin-left: 20px;
+    }
+    .botao{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao2{
+        margin-left: -60px;
+        width: 100px;
+    }
+    .botao4{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao3{
+        margin-left: -60px;
+        width: 100px;
+    }
+    .botao6{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao5{
+        margin-left: -60px;
+        width: 100px;
+    }
+    .botaocadastro{
+        background-color: #B171E9;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 30px;
+        align-items: center;
+        height: 30px;
+        width: 15%;
+    }
+    .fundo{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .form{
+        height: 550px;
+        margin-left: 25%;
+    }
+    .seletivo{
+        margin-right: 5px;
+    }
+    main{
+        height: 800px;
+    }
+    .filepa{
+        height: 800px;
+    }
+    .img{
+        height: 300px;
+    }
+    footer img{
+        width: 100px;
+    }
+    .suporte{
+        margin-right: -20px;
+    }
+    .evento{
+        margin-left: 40%;
+    }
+    .evento h1{
+        font-size: medium;
+        margin-top: 6px;
+    }
+    .botaocadastro{
+        height: 40px;
+    }
+}
+
+/* fim media cadastro 768px */
+
+/* inicio media de cadastro 425px */
+@media screen and (max-width: 425px){
+     .background{
+         width: 100%;
+         height: 750px;
+     }
+     .filepa{
+         height: 750px;
+     }
+     .img{
+         height: 170px;
+     }
+     .motivos{
+         margin-left: 10px;
+         height: 210px;
+     }
+     .form{
+         max-width: 74% ;
+         margin-left: 20%;
+     }
+     .botaocadastro{
+         width: 90px;
+     }
+     .seletivo{
+         margin-left: 14px;
+     }
+     .suporte{
+         margin-left: -210px;
+     }
+     body{
+         height: 750px;
+     }
+}
+/* fim media cadastro 425px */

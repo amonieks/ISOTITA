@@ -25,7 +25,7 @@ header img{
     width: 120px;
 }
 .filepa1{
-    height: 1250px;
+    height: 1450px;
     width: 2%;
     background-color: #D4B0E4;
     position: absolute;
@@ -39,28 +39,93 @@ header img{
     height: 50px;
     font-size: medium;
 }
-.h1{
-    margin-top: 40px;
+.card2 h1{
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.card2 .fundo2 h1{
+    position: relative;
+    top: 15px;
+}
+.card2 .fundo2{
+    position: relative;
+    top:15px;
+    justify-content: start;
+}
+.card3 h1{
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.card3 .fundo3 h1{
+    position: relative;
+    top: 15px;
+}
+.card3 .fundo3{
+    position: relative;
+    top:15px;
+    justify-content: start;
+}
+.card .fundo1 h1{
+    position: relative;
+    top: 17px;
+}
+.card .fundo1{
+    position: relative;
+    top:15px;
+    justify-content: start;
 }
 .card{
     background-color: var(--fundo1) ;
     width: 90%;
     border-radius: 13px;
-    height: 350px;
+    height: 420px;
 }
+.card2{
+    background-color: var(--fundo3) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 420px;
+}
+.card3{
+    background-color: var(--fundo5) ;
+    width: 90%;
+    border-radius: 13px;
+    height: 420px;
+}
+
+
 .fundo1{
     background-color: var(--fundo2);
     border-radius: 15px;
     max-width: 300px;
     margin-top: 20px;
 }
-
+.fundo2{
+    background-color: var(--fundo4);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+.fundo3{
+    background-color: var(--fundo6);
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 20px;
+}
 
 .centro{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 1250px;
+    height: 1450px;
     max-width: 100%;
     margin-top: 10px;
 }
@@ -73,31 +138,89 @@ button{
     width: 50px;
     justify-content: space-between;
 }
+.botao{
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao2{
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.botao4{
+    background-color: var(--fundo4);
+    color: white;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao3{
+    background-color: var(--fundo4);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.botao6{
+    background-color:var(--fundo6);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 15%;
+    position: absolute;
+    right: 300px;
+    margin: 30px;
+}
+.botao5{
+    background-color:var(--fundo6);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+}
+.seletivo{
+    margin-left: 87px;
+}
 .fundo{
     background-color: white;
     box-shadow: 0px 10px 10px;
-    height: 1150px;
+    height: 1390px;
     width: 90%;
     margin-left: 65px;
     border-radius: 15px;
     margin-top: 25px;
 }
 .assunto{
-    margin-left: 10px;
+    margin-left: 44px;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 15px;
-    width: 92%;
+    width: 86%;
 }
 .sobre{
     margin-left: 40px;
-    height: 170px;
-    margin-top: 10px;
+    height: 180px;
+    margin-top: 30px;
     border-radius: 15px;
-    width: 83%;
+    width: 91%;
 }
 textarea{
-    margin-left: 10px ;
+    margin-left: 20px ;
     margin-top: 10px;
     width: 92%;
 
@@ -108,23 +231,27 @@ footer{
     text-shadow: 3px 3px 6px #000000;
 }
 
- .sociais{
+.sociais{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     color:  purple;
     padding: 1.2em 0px;
+
 }
 footer .container{
     background-color: #474747;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding: 2em;
 }
 
 footer h3{
-    text-align: end;
-    font-size: medium;
-    margin-left: 10px;
+    text-align: center;
+    font-size: small;
+    width: 200px;
+    padding: 1px;
+    margin: 0px 30px;
+    margin-left:-100px ;
 }
 footer p{
     border: black;
@@ -151,7 +278,14 @@ main{
     background-repeat: repeat;
     max-width: 100%;
     margin-top: 20px;
-    height: 1000px;
+    height: 950px;
+}
+main .evento{
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    height: 30px;
+    width: 30%;
 }
 main img{
     width: 130%;
@@ -161,7 +295,7 @@ main img{
     margin: 20px 20px;
 }
 .filepa{
-    height: 1000px;
+    height: 950px;
     width: 2%;
     background-color: #D4B0E4;
     position: absolute;
@@ -173,69 +307,31 @@ main img{
     max-width: 40%;
     border-radius: 15px;
     color: white;
-    height: 60px;
-}
-.form{
-    box-shadow: 0px 10px 10px;
-    max-width: 50%;
-    height: 800px;
-    border-radius: 15px;
-    box-shadow: 0px 10px 10px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-.campo{
-    align-items: flex-start;
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    color: black;
-    padding: 0.5em;
-    margin: 0px 0px;
- }
- .campo label{
-     text-transform: uppercase;
-     padding: 30px;
-     font-weight: bold;
- }
- input[type="text"],
-input[type="date"],
-select{
-    background-color: white;
-    color: black;
-    border: none;
-    border-bottom: 1px solid #474747;
-    width: 60%;
-}
-input:focus, select:focus{
-    outline: none;
-    background-color: white;
-    box-shadow: 0 0 5px white;
-    border-bottom: 1px solid var(--fundo4);
+    height: 90px;
 }
 .ilustração{
-    width: 200%;
-    height: 103%;
+    width: 100%;
+    height: 100%;
     align-items: flex-start;
     justify-content: start;
 }
  .img{
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 .sociais{
     justify-content: start;
+}
+.motivos{
+    height: 300px;
+    margin-left: 20px;
 }
 .botaocadastro{
     background-color: #B171E9;
     font-weight: bold;
     color: white;
     position: relative;
-    top: 150px;
+    top: 40px;
     align-items: center;
     height: 30px;
     width: 15%;
@@ -243,69 +339,319 @@ input:focus, select:focus{
 footer img{
     width: 120px;
 }
-input{
-    margin-top: 2.3em;
-    margin-right: 250px;
-    margin-left: -30px;
-}
-select{
-    margin-top: 2.6em;
-    margin: 0px 0px;
-}
+
 textarea{
     margin-left: 60px;
     height: 20%;
+    width: 90%;
 }
 
-/* começo media 768px */
-@media screen and (min-width:768px){
-    .form{
-        max-width: 75%;
+.form{
+    max-width: 60%;
+    box-shadow: 0px 10px 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 3em;
+    height: 650px;
+    margin-bottom: 3em;
+    border-radius: 15px;
+}
+.campo{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   color: black;
+   padding: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: 3px;
+}
+
+.campo label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.seletivo{
+    margin-top: 5px;
+    margin-right: 45px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 60%;
+}
+input[type="date"]{
+    text-align: center;
+    font-size: 1.3em;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #474747;
+    border-bottom: 1px solid var(--purple);
+}
+.form button{
+    border: none;
+    margin-top: 2em;
+    width: 15%;
+    cursor: pointer;
+}
+select{
+    margin: 30px 30px;
+}
+
+
+/* começo media feed 768px */
+@media screen and (max-width: 768px){
+    .botao{
+        margin-right: 100px;
     }
-    textarea{
-        margin-left: 45px;
-        width: 83%;
-        height: 35%;
+    .botao2{
+        margin-left: 20px;
     }
-    .botaocadastro{
-        position: relative;
-        top: 60px;
+
+    .fundo{
+        width: 87%;
     }
-    .img{
-        width: 100%;
-        height: 350px;
-    }
-    select{
-        margin-top: 4em;
-    }
-   .label{
-       margin: 0px 0px;
-   }
-    .input{
-        margin-top: 2.3em;
+
+    .sobre{
+        margin-left: 27px;
     }
     .assunto{
-        margin-left: 40px;
-        width: 83%;
+        width: 88%;
+        margin-left: 30px;
     }
-    .campo input{
-        width: 90%;
-        padding: 0em 3em;
-        margin-left: 50px;
+    footer img{
+        width: 90px;
     }
+    footer h3{
+        margin-left: 300px;
+    }
+
 }
 
 /* fim media 768px */
 
-@media screen and (min-width: 425px){
-    textarea{
-        margin-left: 13px;
+/* inico media feed 425px */
+@media screen and (max-width: 425px){
+    .botao{
+        position: absolute;
+        right: 120px;
+        width: 60px;
     }
-    .centro{
-        width: 100%;
+    .botao2{
+        position: absolute;
+        left: 180px;
+        width: 70px;
     }
-    .contato{
-        margin-right: 20px;
+    .botao4{
+        position: absolute;
+        right: 120px;
+        width: 60px;
     }
-
+    .botao3{
+        position: absolute;
+        left: 180px;
+        width: 70px;
+    }
+    .botao6{
+        position: absolute;
+        right: 120px;
+        width: 60px;
+    }
+    .botao5{
+        position: absolute;
+        left: 180px;
+        width: 70px;
+    }
+    .fundo{
+        width: 95%;
+        margin-left: 50px;
+    }
+    .fundo2{
+        background-color: var(--fundo4);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo3{
+        background-color: var(--fundo6);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo1{
+        background-color: var(--fundo2);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .sobre{
+        margin-left: 17px;
+        height: 180px;
+    }
+    .assunto{
+        width: 88%;
+        margin-left: 17px;
+    }
+    footer img{
+        width: 90px;
+    }
+    footer h3{
+        margin-left: 300px;
+    }
 }
+/* fim media feed 425px */
+
+/* inico media feed 1366px */
+@media screen and (max-width: 1366px){
+    .botao{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao2{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .botao4{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao3{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .botao6{
+        margin-right: -90px;
+        width: 90px;
+    }
+    .botao5{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .fundo{
+        width: 90%;
+        margin-left: 90px;
+    }
+    .fundo2{
+        background-color: var(--fundo4);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo3{
+        background-color: var(--fundo6);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .fundo1{
+        background-color: var(--fundo2);
+        border-radius: 15px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .sobre{
+        margin-left: 17px;
+        height: 180px;
+    }
+    .assunto{
+        width: 88%;
+        margin-left: 17px;
+    }
+    .seletivo{
+        margin-left: 55px;
+    }
+    footer img{
+        width: 130px;
+    }
+    footer h3{
+        margin-right: 10px;
+    }
+}
+/* fim media feed 1366px */
+
+/* inicio media cadastro 768px */
+@media screen and (max-width: 768px){
+    .motivos{
+        height: 200px;
+        margin-left: 20px;
+    }
+    .botaocadastro{
+        background-color: #B171E9;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 30px;
+        align-items: center;
+        height: 30px;
+        width: 15%;
+    }
+    .form{
+        height: 550px;
+        margin-left: 25%;
+    }
+    .seletivo{
+        margin-right: 5px;
+    }
+    main{
+        height: 800px;
+    }
+    .filepa{
+        height: 800px;
+    }
+    .img{
+        height: 300px;
+    }
+    .evento{
+        margin-left: 40%;
+    }
+    .evento h1{
+        font-size: medium;
+        margin-top: 6px;
+    }
+    .botaocadastro{
+        height: 40px;
+    }
+}
+
+/* fim media cadastro 768px */
+
+@media screen and (max-width: 425px){
+     .background{
+         width: 100%;
+         height: 750px;
+     }
+     .filepa{
+         height: 750px;
+     }
+     .img{
+         height: 170px;
+     }
+     .motivos{
+         margin-left: 10px;
+         height: 210px;
+     }
+     .form{
+         max-width: 74% ;
+         margin-left: 20%;
+     }
+     .botaocadastro{
+         width: 90px;
+     }
+     .seletivo{
+         margin-left: 14px;
+     }
+     body{
+         height: 750px;
+     }
+}
+/* fim media cadastro 425px */

@@ -27,33 +27,32 @@
     <div class="evento">
         <h1>Criação de evento</h1>
     </div>
-    <form class="form" action="" method="post">
-        <div class="campo">
-            <label for="movimento">Movimento:</label>
-            <input type="text" name="movimento"> 
-         </div>
-         <form class="form" action="" method="post">
-            <div class="campo">
-                <label for="local">Local:</label>
-                <input type="text" name="local"> 
-             </div>
-             <form class="form" action="" method="post">
-                <div class="campo">
-                    <label for="data">Data:</label>
-                    <input type="date" name="Data"> 
-                 </div>
-                 <div class="campo">
-                    <label for="estimativadepessoas">Estimativa de pessoas:</label>
-                    <select name="estimativadepessoas" >
-                        <option value="P">Selecione uma opção</option>
-                        <option value="500">500 pessoas</option>
-                        <option value="1000">1000 pessoas</option>
-                        <option value="+">Mais de 1000 pessoas</option>
-                    </select> 
-                 </div>
-                 <textarea rows="10" cols="40" maxlength="500" placeholder="  Motivos:"></textarea>
-                 <button type="submit" class="botaocadastro">Criar evento</button>
-                 
+
+                 <form class="form" action="" method="post">
+                    <div class="campo">
+                        <label for="movimento">Movimento:</label>
+                        <input type="text" name="movimento" id="home"> 
+                     </div>
+                     <div class="campo">
+                         <label for="Local">Local:</label>
+                         <input type="text" name="Local" id="home"> 
+                      </div>
+                      <div class="campo">
+                         <label for="data">Data:</label>
+                         <input type="date" name="data" > 
+                      </div>
+                      <div class="campo">
+                         <label class="seletivo" for="Estimativa">Estimativa:</label>
+                         <select class="seletivo" name="Estimativa" >
+                             <option value="BR">Selecione uma opção</option>
+                             <option value="BR">500 pessoas</option>
+                             <option value="US">1000 pessoas</option>
+                             <option value="ES">Mais de 1000 pessoas</option>
+                         </select> 
+                      </div>
+
+                      <textarea class="motivos"  rows="10" cols="40" maxlength="500" placeholder="  Motivos:"></textarea>
+                      <button type="submit" class="botaocadastro">Criar evento</button>
                  
                 </main>
                 <img src="img/cadastro.jpg" class="img" alt="Imagem ilustrativa de movimento social">

@@ -9,6 +9,15 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
                     /* header */
 
 
@@ -132,7 +141,7 @@ footer{
  .sociais{
     display: flex;
     justify-content: space-evenly;
-    color:  purple;
+    color: var(--primaria);
     
 }
 .box1,.box2{
@@ -166,4 +175,12 @@ footer p{
     border: black;
     text-align: center;
     background-color: #474747;
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:1200px){
+    
 }

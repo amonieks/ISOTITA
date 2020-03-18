@@ -449,7 +449,7 @@ select{
     }
     .botao2{
         position: absolute;
-        left: 180px;
+        left: 100px;
         width: 70px;
     }
     .botao4{
@@ -459,7 +459,7 @@ select{
     }
     .botao3{
         position: absolute;
-        left: 180px;
+        left: 100px;
         width: 70px;
     }
     .botao6{
@@ -469,7 +469,7 @@ select{
     }
     .botao5{
         position: absolute;
-        left: 180px;
+        left: 100px;
         width: 70px;
     }
     .fundo{

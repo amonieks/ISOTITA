@@ -40,8 +40,7 @@ body{
 }
 .logo{
     width: 40%;
-    
- 
+
 }
 .logo img{
     border-radius: 1.2em;
@@ -150,66 +149,79 @@ h1{
     margin-bottom: 1.5em;
     box-shadow: 0 10px 10px;
     border-radius: 30px;
-    background-color: red;
+    
 }
 input[type="text"],
 input[type="date"],
 input[type="email"],
 input[type="password"],
 select{
-    background-color: red;
+    
     border: none;
     border-bottom: 1px solid #474747;
     color: #474747;
 }
+
 .campo{
     width: 80%;
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-    
-    
+    text-transform: uppercase;
+        
 }
 
 .checkbox{
     display: flex ;
     justify-content: space-around;
     margin-bottom: 1em;
-    background-color: blue;
+    
     padding: 0.5em;
     
 }
 .checkbox h2{
-    margin-top: 0.5em;
-    font-size: 20px;
+    margin-top: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 15px;
+    text-transform: uppercase;
+    
 }
-fieldset{
-    border: none;
-}
+
 .fielder{        
     
     display: flex;
     justify-content: space-around;
-   
-    background-color: blueviolet;    
+    margin-right: 0.5em;
 }
 fieldset div div{
     margin: 0.5em;
-    background-color: yellow;
+    
     
     
 }
 fieldset div div div{
-    background-color:green;
+    
     align-items: center;
     display: flex;
 }
-/* fieldset div{
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0.5em; 
-} */
+.campo_termos{    
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.campo_termos input{
+    margin: 1em;    
+}
+button{
+    width: 40%;
+    height: 40%;
+    margin-left: 2em;
+    border-radius: 10px;
+    background-color: var(--primaria);
+    opacity: 51%;
+    color:white;
+}
 
 
     /* Fim do Cadastro */
@@ -225,7 +237,7 @@ footer{
     text-shadow: 3px 3px 6px #000000;
 }
 
- .sociais{
+.sociais{
     display: flex;
     justify-content: space-evenly;
     color: var(--primaria);
@@ -265,6 +277,7 @@ footer p{
 }
 
 @media screen and (min-width:768px){
+
 
 }
 

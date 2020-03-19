@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">    
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
-    <title>CADASTRO</title>
+    <title>CADASTRO DE USUÁRIO</title>
 </head>
 <body>
 
@@ -37,70 +37,97 @@
                 <!-- FIM CABEÇALHO -->
 
                 <!-- MEIO DA PAGINA -->
-    <main>
+    <main class="center">
 
-
-
-        <h1>cadastro</h1>
 
         <aside></aside>
 
-       <div class="banner_cadastro">
-           <img src="Imagens/Imagem 2.png" alt="">
-       </div>
-       <form class="dados" action="" method="POST">
+        <div>
+            <h1>cadastro</h1>
 
-           <div class="campo">
-               <label for="nome">nome completo:</label>
-               <input type="text" name="nome completo" id="nome">
-           </div>
-           <div class="campo">
-               <label for="data_de_nascimento">data de nascimento:</label>
-               <input type="date" name="data de nascimento" id="nascimento">
-           </div>
-           <div class="campo">
-               <label for="email">e-mail</label>
-               <input type="email" name="email" id="email">
-           </div>
-           <div class="campo">
-               <label for="senha">senha</label>
-               <input type="password" name="senha" id="email">
-           </div>
-           <div class="campo">
-               <label for="confirma_senha">confirma senha</label>
-               <input type="password" name="confirma_senha" id="confirma_senha">
-           </div>
+      <div>
 
-           <fieldset>
-            <legend>genero</legend>
+          <div class="banner_cadastro">
+              <img src="Imagens/Imagem 2.png" alt="">
+            </div>
+            <form class="dados" action="" method="POST">
+                
+                <div class="campo">
+                    
+                    <label for="nome">nome completo:</label>
+                    <input type="text" name="nome completo" id="nome">
+                </div>
+                <div class="campo">
+                    <label for="data_de_nascimento">data de nascimento:</label>
+                    <input type="date" name="data de nascimento" id="nascimento">
+                </div>
+                <div class="campo">
+                    <label for="email">e-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="campo">
+                    <label for="senha">senha</label>
+                    <input type="password" name="senha" id="email">
+                </div>
+                <div class="campo">
+                    <label for="confirma_senha">confirma senha</label>
+                    <input type="password" name="confirma_senha" id="confirma_senha">
+                </div>
+            <div class="checkbox">
+                            <h2>genero</h2>
+                
+                    <fieldset>
+                        
+                        <div class="fielder">
 
+                            
+                        <div>
+                            <div>
+                                
+                                <input type="radio" name="sexo" value="M" id="masculino">
+                                <label for="Masculino">Masculino</label>
+                            </div>
+                            <div>
 
-                    <input type="radio" name="sexo" value="M" id="masculino">
-                    <label for="Masculino">Masculino</label>
-
-                    <input type="radio" name="sexo" value="F" id="masculino">
-                    <label for="Feminino">Feminino</label>
-
-                    <input type="radio" name="sexo" value="O" id="masculino">
-                    <label for="Outros">Outro</label>
-
-                    <input type="radio" name="sexo" value="N" id="masculino">
-                    <label for="NA">Masculino</label>
-           </fieldset>
-
-                    <div class="campo termos">
-
-                        <input type="checkbox" Name="check" id="check">
-                        <label for="check">
-                            Declaro que li e aceito os termos de uso deste site.</label>
+                                <input type="radio" name="sexo" value="O" id="Outro">
+                                <label for="Outros">Outro</label>
+                            </div>
+                            
+                        </div>
+                        <div>
+                            
+                            <div>
+                                
+                                <input type="radio" name="sexo" value="F" id="Feminino">
+                                <label for="Feminino">Feminino</label>
+                            </div>
+                            <div>
+                                
+                                <input type="radio" name="sexo" value="N" id="masculino">
+                                <label for="NA">Masculino</label>
+                            </div>
+                        </div>
                     </div>
-                        <button type="submit" class="btn gradient">criar</button>
-    </form>
+                    </fieldset>
+                    
+                    
+             </div>
 
-
-
-    </main>
-
+             <div class="campo termos">
+            
+                <input type="checkbox" Name="check" id="check">
+                <label for="check">
+                    Declaro que li e aceito os termos de uso deste site.</label>
+            </div>
+            <button type="submit" class="btn gradient">criar</button>
+        </form>
+        
+        </div>  
+        
+    </div>
+    
+                </main>
+                
 
                 <!-- FIM MEIO DA PAGINA -->
 

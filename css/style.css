@@ -158,12 +158,23 @@ h1{
     margin: 1em;
     
 }
+.center div{
+	margin: 0 auto;
+}
+
 .banner_cadastro{
     width: 262px;
     height: 125px;
     margin: 0 auto;
     margin-bottom: 1em; 
 }
+
+.banner_cadastro img{
+	border-radius: 10px;
+
+	box-shadow: 0 10px 10px;
+}
+
 .dados{
     padding: 1em;
     width: 80%;
@@ -433,6 +444,19 @@ footer p{
         background-color: #474747;
     }
     
+/* cadastro*/
+
+.center div{
+	width:80%;
+}
+.banner_cadastro{
+	height:100%;
+}
+.dados{
+	width:80%;
+}
+
+}
 
     
 

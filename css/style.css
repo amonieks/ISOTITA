@@ -158,6 +158,7 @@ h1{
     margin: 1em;
     
 }
+
 .center div{
 	margin: 0 auto;
 }
@@ -228,7 +229,8 @@ select{
     margin-right: 0.5em;
 }
 fieldset div div{
-    margin: 0.5em;
+
+	padding:0.3em;
     
     
     
@@ -448,13 +450,15 @@ footer p{
 
 .center div{
 	width:80%;
+
 }
 .banner_cadastro{
 	height:100%;
 }
 .dados{
-	width:80%;
+	width:100%;
 }
+
 
 }
 

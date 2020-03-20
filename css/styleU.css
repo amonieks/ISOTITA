@@ -1,0 +1,187 @@
+
+:root{
+    --fundo1:#824C9A;
+    --fundo2:#9D589F;
+    --fundo3:#387878;
+    --fundo4:#50A9AF;
+    --fundo5:#5B2828;
+    --fundo6:#9E4444;
+    --purple:
+    }
+    *{
+    margin:0 auto ;
+    padding: 0;
+    }
+    body{
+    background-color: #D4B0E4;
+    }
+    .container{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    }
+    header img{
+    width: 120px;
+    }
+    .mais {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 51px;
+        padding: 10px;
+    }
+
+    .info{
+      justify-content: center;
+      box-shadow: 0px 6px 10px black;    
+      background-color: black;
+      width: 338px;
+      color: white  ;
+      margin: 10px auto;
+      padding: 7px;
+      border-radius: 15px;
+        
+    }
+
+    .info h2{
+        border-bottom-style: solid;
+        display: inline;
+        padding: 3px;
+    }
+
+    .info p{
+        padding: 10px;
+        border-bottom: solid;
+    }
+
+    .info img{
+        background-color: gray;
+        border-radius: 51px;
+        width: 56px;
+        height: 53px;
+    }
+    .feed{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 28%;
+        margin: 2%;
+        box-shadow: 0px 2px 10px black;
+        background: rgb(233, 230, 230);
+        background-color: pink;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .card h2{
+        display: flex;
+        border-bottom: solid;
+    }
+
+    .card img{
+        width: 100%;
+        height: 270px;
+    }
+
+    .sociais {
+        display: flex;
+        margin-top: 26px;
+    }    
+    
+    .sociais img{
+        height: 10px;
+        width: 10px; 
+        display: flex   ;
+        justify-content: space-between;
+    }
+
+    .fas{
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+     }
+
+     .usuario{
+         display: flex;
+
+     }
+     .user{
+        padding: 16px;
+     }
+
+
+     footer{
+        box-shadow: 0px 0px 10px black;
+        color: #707070;
+        text-shadow: 3px 3px 6px #000000;
+        }
+        
+        .sociais{
+        display: flex;
+        justify-content: start;
+        color: #a963c9;
+        padding: 1.2em 0px;
+        
+        }
+        footer .container{
+        background-color: #474747;
+        display: flex;
+        justify-content: start;
+        padding: 72px;
+        }
+        
+        footer h3{
+        text-align: center;
+        font-size: small;
+        width: 200px;
+        padding: 1px;
+        margin: 0px 30px;
+        margin-left: 200px ;
+        }
+        footer p{
+        border: black;
+        text-align: center;
+        background-color: #474747;
+        }
+
+        .container img{
+            width: 117px;
+        }
+        /*Inicio Movimentos 426px*/
+
+        @media screen and (max-width: 426px){
+            .card{
+                width: 73%; 
+            }
+            .background{
+                width: 100%;
+                height: 750px;
+            }
+        
+            .suporte{
+                 margin-left: -210px;
+            }
+            body{
+                height: 750px;
+            }
+        }
+        /*fim movimentos 426px*/
+
+        /*inicio movimentos 768px*/
+        @media screen and (max-width: 768px){
+            .card{
+                width: 53%;
+            }
+            .container{
+                width: 621px;
+            }
+            footer img{
+                width: 100px;
+            }
+        }
